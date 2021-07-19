@@ -1,0 +1,3 @@
+It is a prototype having two projects ecommerce and blog and if users signup from any one of the project,they'll be able to login in both the projects so by this a user need not to sign up multiple times and need not to memorize multiple passwords and usernames.
+
+In this,I am using a common database for authentication purpose for all of the project so in every project two database is needed,one for authentication purpose and other for other usage and we can do this using multiple databases and can allocate the usage of databases using routers and thus now when a user signup from one project they can easily login from other as their credentials will get store in the common database that is being used for authentication purpose.
